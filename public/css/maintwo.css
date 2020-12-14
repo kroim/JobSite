@@ -1,0 +1,49 @@
+/* Inner Banner Style */
+.wt-innerbannerholdertwo {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    padding: 96px 0 30px;
+}
+.wt-innerbannerholdertwo + .wt-categoriesslider-holder{
+	margin-top:0;
+}
+
+.wt-bannertitletwo {
+    float: left;
+    width: 100%;
+    border-left: 3px solid #fff;
+    padding: 0 30px;
+    text-align:left;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.wt-bannertitletwo h1 {
+    font-size: 24px;
+	line-height: 1.3;
+    color: #fff;
+    margin: 0;
+}
+.wt-innerbannerholdertwo .wt-bannercontentseven .wt-formbanner {
+    margin: 0;
+}
+.wt-bannertitletwo .wt-title{margin-top:-5px}
+.wt-bannertitletwo .wt-breadcrumb{
+	font-size:14px;
+    margin-top: 5px;
+}
+.wt-innerbannerholdertwo .justify-content-md-center{
+	align-items:center;
+}
+@media (max-width:568px){
+	.wt-innerbannerholdertwo{height: 400px;}
+}
+@media (max-width:479px){
+	.wt-innerbannerholdertwo{
+		height: 430px;
+		padding-top: 130px;
+	}
+}
